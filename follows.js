@@ -12,12 +12,12 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '7Rvo7i3qaH8QeteaZJgIYAGv6OuZwGuMcOyaERxZ9IzVs6Il', // Unique master Xively API key to be used as a default
+	var defaultKey		= '', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= 'Data Stream1', // Replaces Xively logo in the header
-		dataDuration	= '90 days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		applicationName	= '', // Replaces Xively logo in the header
+		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
-		dataColor		= 'FF0000 ', // CSS HEX value of color to represent data (omit leading #)
+		dataColor		= '0A1922 ', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0; // T o hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
